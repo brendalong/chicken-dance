@@ -1,0 +1,22 @@
+[
+	{
+		"name": "snake",
+		"type": "omnivore"
+	},
+	{
+		"name": "goat",
+		"type": "herbivore"
+	},
+	{
+		"name": "donkey",
+		"type": "herbivore"
+	},
+	{
+		"name": "horse",
+		"type": "herbivore"
+	},
+	{
+		"name": "peacock",
+		"type": "herbivore"
+	}
+]

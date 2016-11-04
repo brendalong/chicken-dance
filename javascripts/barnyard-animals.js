@@ -4,8 +4,6 @@ var Barnyard = (function(originalBarnyard){
 
 	let howManyAnimals = 0;
 
-	
-
 	originalBarnyard.getCount = function(){
 		return howManyAnimals;
 	};
@@ -16,7 +14,6 @@ var Barnyard = (function(originalBarnyard){
 	
 	
 	howManyAnimals += Chicken.getChickens();
-	
 	console.log("howManyAnimals", howManyAnimals);
 
 

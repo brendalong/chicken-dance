@@ -10,7 +10,7 @@ var Chicken = (function(originalChicken){
 
 	originalChicken.addFriend = function(who){
 		//anyone who wants to be a friend needs to be tested.
-		if (who.herbivore){
+		if (who.type === "herbivore"){
 			friends.push(who.name);
 			console.log(who.name, "is now a friend");
 		}else {
