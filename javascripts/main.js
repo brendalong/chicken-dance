@@ -39,4 +39,4 @@ barnbtn.addEventListener("click", function(){
 function introduceChicken(){
 	//start things rolling
 	console.log("Chicken", Chicken);
-}
+};
